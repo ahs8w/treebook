@@ -59,7 +59,7 @@ class StatusesControllerTest < ActionController::TestCase
   end
 
   
-  test "should redirect status when not logged in" do
+  test "should redirect update when not logged in" do
     put :update, id: @status, status: { content: @status.content}
     assert_response :redirect
     assert_redirected_to new_user_session_path
