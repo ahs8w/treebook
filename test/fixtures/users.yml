@@ -10,3 +10,8 @@ jason:
   email: "jason@teamtreehouse.com"
   profile_name: "jason_seifer3"
   
+mike:
+  first_name: "mike"
+  last_name: "the frog"
+  email: "mike@teamtreehouse.com"
+  profile_name: "mikethefrog"
